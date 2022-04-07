@@ -58,6 +58,7 @@ nav ul li a {
 main {
   padding: 20px;
 }
+
 footer {
   background-color: rgb(136, 61, 38);
   /* Permitir com que o rodapé fique com seu conteúdo flexível */
@@ -81,6 +82,7 @@ footer {
   position: absolute;
   right: 50px;
 }
+
 #redes ul {
   /* Retirar as bolinhas de marcação */
   list-style: none;
@@ -95,3 +97,48 @@ footer {
   width: 50px;
   height: 50px;
 }
+
+/* ============Inicio da formatação CSS para o home=========== */
+
+h2 {
+  font-family: "Lucida Sans";
+  font-size: 20pt;
+  border-bottom: 1px dashed darkred;
+  margin: 30px;
+}
+
+main p {
+  margin: 15px;
+  width: 80%;
+  /* para alinhar um objeto ao centro, você pode usar margin-left e margin-right auto para os dois */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+  font-family: "Lucinda Sans";
+  font-size: 12pt;
+  /* Espaçamento entre linhas com o comando line-height */
+  line-height: 30px;
+}
+
+#imghome {
+  text-align: center;
+}
+
+#imghome img {
+  width: 200px; /*largura da imagem*/
+  height: 200px; /*altura da imagem*/
+  border-radius: 300px; /* arredondar os cantos das imagens*/
+  /* colocar as imagens um pouco opcas */
+  opacity: 0.7; /* colocar a imagem em 70% de opacacidade*/
+  margin: 20px;
+  /* Efeito de transição. Isso fará com que a imagem tenha uma animação quando passar o mouse sobre ela */
+  transition: ease 1s;
+}
+
+#imghome img:hover {
+  opacity: 1;
+  width: 300px;
+  height: 300px;
+}
+
+/* ============FIM DA HOME============== */
