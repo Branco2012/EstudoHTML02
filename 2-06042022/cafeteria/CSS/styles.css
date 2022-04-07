@@ -49,8 +49,49 @@ nav ul li {
 }
 
 nav ul li a {
-  color: crimson;
+  color: whitesmoke;
   font-family: arial;
   /*tirar o sublinhado*/
   text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+footer {
+  background-color: rgb(136, 61, 38);
+  /* Permitir com que o rodapé fique com seu conteúdo flexível */
+  display: flex;
+  /* Dispor o conteúdo em linha */
+  flex-direction: row;
+  /* Ajustar  o conteúdo ao centro com Justify-content e Aliegn-Items */
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+#endereco {
+  font-family: arial;
+  font-size: 15pt;
+  color: darkgoldenrod;
+  width: 300px;
+  text-align: center;
+}
+#redes {
+  position: absolute;
+  right: 50px;
+}
+#redes ul {
+  /* Retirar as bolinhas de marcação */
+  list-style: none;
+}
+
+/*  Vamos dispor a imagens das redes em linha com display inline-block */
+#redes ul li {
+  display: inline-block;
+  margin: 10px;
+}
+#redes ul li a img {
+  width: 50px;
+  height: 50px;
 }
