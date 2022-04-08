@@ -174,3 +174,73 @@ main p {
   margin-bottom: 20px;
 }
 /* ==========Fim da página história========== */
+
+/* ======Inicio dos estilos para o cardápio======= */
+
+h3 {
+  /*  converter as letras para maiúsculas */
+  text-transform: uppercase; /*UppeCase->letras  maiúsculas*/
+  font-size: 20pt;
+  font-family: Verdana;
+  color: darkgoldenrod;
+  margin: 30px;
+}
+
+#linha {
+  display: flex;
+  flex-direction: row;
+  /*  realizar a quebra linha para os demais 
+  produtos que forem adicionados */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#linha #produto {
+  width: 40%;
+  margin: 10px;
+  display: flex; /* determinar que o conteúdo do produto será
+  flexível*/
+  flex-direction: row;
+}
+
+#linha #produto #imgprod,
+#linha #produto #descricao {
+  width: 48%;
+  margin: 10px;
+  transition: ease 0.5s;
+}
+
+#linha #produto #imgprod img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+h4 {
+  font-family: "Times New Roman";
+  font-size: 20pt;
+  margin: 10px;
+}
+
+h5 {
+  font-family: "Lucinda Sans";
+  font-weight: lighter; /* Retirar o negrito*/
+  font-size: 10pt;
+  margin: 10px;
+}
+
+h6 {
+  font-family: "Lucinda Sans";
+  color: darkred;
+  font-size: 12pt;
+  margin: 10px;
+}
+
+#linha #produto:hover {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+/* =========Fim da página do cardápio========== */
