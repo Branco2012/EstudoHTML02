@@ -21,7 +21,32 @@
             <li><a href="localizacao.html">Localização</a></li>
         </ul>
     </nav>
-    <main></main>
+    <main>
+        <h2>Fale conosco</h2>
+        <form >
+            <!-- A caixa abaixo é tipo texto,pois será digitado o nome do cliente -->
+            <input type="text" placeholder="Nome Completo" required>
+            
+            <!-- A caixa abaixo será formatada com tipo email isso permite a configuração do tipo
+            email a validação também -->
+            <input type="text" placeholder="E-Mail" required>
+            <!-- A caixa abaixo será do tipo tel(telefone) -->
+            <input type="tel" placeholder="Telefone">
+           
+            <select>
+              <option value="Selecione">Selecione</option>
+              <option value="Sugestão">Sugestão</option>
+              <option value="Crítica">Crítica</option>
+              <option value="Elogio">Elogio</option>
+              <option value="Dúvida">Dúvida</option>
+            </select>
+            <textarea>
+            </textarea>
+            <!-- O elemento abaixo será do tipo submit(submeter) , ou seja, 
+            um botão para enviar dos dados do formulário -->
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
     <footer>
         <div id="endereco">
             Rua Pedro Mariano Oliveira, 78 <br> 
