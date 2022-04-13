@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Cafeteria,Café,Bolinho">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Coffee</title>
+</head>
+<body>
+    <header>
+        <a id="abrir" href="#" onclick="abrir()">&#9776;</a>
+        <h1>Coffee</h1>
+    </header>
+    <nav>
+        <a id="fechar" href="#" onclick="fechar()">&times;</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="historia.html">História</a></li>
+            <li><a href="cardapio.html">Cardápio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
+        </ul>
+    </nav>
+    <main>
+        
+        <h2>Conheça Nossa História</h2>
+        <div id="imghistoria">
+            <img src="img/bolo2.jpeg" alt="Bolo de Chocolate">
+            <img src="img/cafe18.jpg" alt="Café">
+            <img src="img/salgado4.jpg" alt="Salgado">
+            <img src="img/doce4.jpg" alt="Torta de abóbora">
+      
+        </div>
+        <p><span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio laboriosam hic dicta architecto adipisci. Harum, fuga ratione, perferendis accusamus, voluptatum fugit tempora cupiditate quibusdam dolorem vel inventore repudiandae. Nulla, officiis?</span><span>Suscipit nesciunt porro reiciendis reprehenderit, praesentium et dolorem tempore rerum alias quod quis officiis, labore deleniti? Earum modi unde quos quia, tempora non numquam voluptates itaque aut dignissimos dolore quaerat?</span><span>Deleniti eum totam blanditiis velit nemo corporis odit debitis aliquid similique earum placeat nobis quam distinctio, impedit illo ipsa natus exercitationem aut excepturi nisi! Nostrum natus sequi tempore ullam est.</span><span>Mollitia, deserunt non tempore consequatur animi nostrum? Adipisci, optio dolor cupiditate perspiciatis magni laboriosam voluptatum dolorem vel temporibus rem, sed eos laborum facilis inventore corporis commodi quae recusandae ab aperiam.</span><span>Accusantium, eligendi amet! Inventore voluptatum ducimus recusandae quia corrupti optio dignissimos, modi quibusdam delectus quod voluptas veniam corporis ipsum consequuntur ad veritatis id voluptatem vitae architecto velit dolorum aliquid ipsam.</span></p>
+        
+        <div id="videohistoria">
+            <iframe src="https://www.youtube.com/embed/pt4iWtNIXUg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    
+    </main>
+    <footer>
+        <div id="endereco">
+            Rua Pedro Mariano Oliveira, 78 <br> 
+            São Paulo - SP <br> CEP: 03428-100 <br>
+            Telefone: 11 5682-4522
+        </div>
+        
+        <div id="redes">
+          <ul>
+              <li><a href="http://www.facebook.com" target="_blank"><img src="img/facebook.png" alt="Acesse nosso facebook."></a></li>
+              <li><a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png" alt="Acesse nosso instagram."></a></li>
+              <li><a href="https://www.youtube.com" target="_blank"><img src="img/youtube.png" alt="Acesse nosso canal do youtube."></a></li>
+          </ul>
+        </div>
+
+    </footer/>
+    
+    <script>
+        function abrir(){
+            document.getElementsByTagName("nav")[0].style.left="0px"
+        }
+        function fechar(){
+            document.getElementsByTagName("nav")[0].style.left="-200px"
+        }
+    </script>
+
+</body>
+</html>
